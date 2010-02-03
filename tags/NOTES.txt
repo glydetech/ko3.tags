@@ -1,3 +1,9 @@
 2010-02-02
 ----------
 Started project
+Created basic Tag class
+
+TODO
+----
+If there is no tag name, output only the content. To do this, separate the rendering of the opening tag, content and closing tag. (and perhaps single tag).
+

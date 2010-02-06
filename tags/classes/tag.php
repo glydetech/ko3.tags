@@ -168,7 +168,7 @@ class Tag
 			{
 				$result .= '>';
 			}
-			$result .= "\n";
+			//$result .= "\n";
 		}
 
 		// Content
@@ -192,7 +192,7 @@ class Tag
 			if (! empty($this->content))
 			{
 			  $result .= '</'.$this->name.'>';
-			  $result .= "\n";
+			  //$result .= "\n";
 			}
 		}
 

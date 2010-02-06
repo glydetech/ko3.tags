@@ -5,7 +5,7 @@ The idea is to create a module to represent an html tag.
 
 Usage example:
 
-$div = new Tag('div', array('id' = 'mydiv, 'class' => 'myclass'), 'div content');
+$div = new Tag('div', array('id' => 'mydiv', 'class' => 'myclass'), 'div content');
 $div->add_content(' extra content');
 $link = new Tag('a', array('href' = '#'), 'click here');
 $div->add_content($link);

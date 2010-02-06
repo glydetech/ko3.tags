@@ -3,7 +3,15 @@
 Started project
 Created basic Tag class
 
-TODO
-----
-If there is no tag name, output only the content. To do this, separate the rendering of the opening tag, content and closing tag. (and perhaps single tag).
+2010-02-05
+----------
+Render
+- Added handling attributes with a null value
+- Added handling attributes with no key (numeric key)
+- Added handling empty tag name
+- Added handling doctype
+- Added handling of array attributes
+- Created a static attributes function
+Version 0.1
+
 
